@@ -1,0 +1,50 @@
+.formBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: darkslategrey;
+}
+
+body{
+    background-color:rgb(155, 132, 81);
+}
+.main-btn button{
+    height: 40px;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    margin-top: 10px;
+    width: 120px;
+    font-weight: bold;
+}
+
+.text-input{
+    margin: 10px;
+    height: 45px;
+    border-radius: 3px;
+    align-items: center;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    padding: 15px;
+}
+
+.form-btn-login{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 40px;
+    margin: 10px;
+}
+
+.form-btn-login button{
+    font-weight: bold;
+    color: beige;
+    background-color: cornflowerblue;
+}
+
+
